@@ -1,0 +1,197 @@
+header {
+	background-image: url("images/dark_embroidery/dark_embroidery.png");
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+body{
+	background-color: LightSteelBlue;
+	margin-top: 0px;
+}
+
+hr {
+	margin: 10px;
+}
+
+#site-logo {
+	position: relative;
+	float: left;
+	width: 5%;
+	height: 7%;
+}
+
+header p {
+	margin-top: 40px;
+	text-align: center;
+	font-size: 25px;
+	clear: both;
+
+}
+
+p, li {
+	font-family: 'Dosis', sans-serif;
+	color: rgb(88, 119, 158);
+	font-size: 20px;
+}
+
+
+h1, nav a	{
+	margin: 0px;
+	text-align: center;
+	font-family: 'IM Fell French Canon SC', serif;
+	color: #D9E4F3;
+	text-decoration: underline;
+	display: inline-block;
+}
+
+nav a {
+	float: right;
+	margin: 5px;
+}
+
+h1 {
+	position: absolute;
+	left: 42%;
+}
+
+#footer-text {
+	text-align: center;
+}
+
+footer img {
+	position: relative;
+	left:40%;
+}
+
+h2 {
+	font-family: 'Titillium Web', sans-serif;
+	color: #839EC1;
+	text-decoration: underline overline;
+}
+
+img{
+	margin: 3px;
+}
+
+
+section {
+	padding-left: 30px;
+	margin-bottom: 30px;
+}
+
+
+
+.first-section {
+		margin-top: 100px;
+}
+
+.inline {
+	display: inline-block;
+	float: right;
+	text-align: left;
+	width: 980px;
+	height: 100px;
+	margin-top: 35px
+}
+
+.profile {
+	border-radius: 300px;
+	display: inline-block;
+}
+
+#fb-icon {
+	border-radius: 20px;
+}
+
+
+@media(max-width: 480px){
+
+#site-logo {
+	position: relative;
+	float: left;
+	width: 14%;
+	height: 18%;
+}
+
+/*footer img {
+	left: 30%;
+}*/
+
+#table {
+	overflow-x: auto;
+}
+
+.first-section {
+	position: relative;
+	display: block;
+	float: none;
+	text-align: center;
+	width: 100%;
+	margin-top: 35px
+}
+
+
+.inline {
+	position: relative;
+	display: block;
+	float: none;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	margin-top: 35px;
+}
+
+header {
+	z-index: 2;
+	position: static;
+}
+
+h1 {
+	position: static;
+}
+
+nav a {
+	position: relative;
+	float: none;
+}
+
+h2 {
+	text-align: center;
+	font-size: 3em;
+}
+
+
+body {
+	position: relative;
+	display: block;
+	min-width: 100%;
+    min-height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+	padding: 0px;
+}
+
+p {
+	margin-left: 1%;
+}
+
+header p {
+	margin-top: 10px;
+}
+
+
+footer img {
+	left: 10vw;
+}
+}
+
+
+/*font-family: 'IM Fell French Canon SC', serif;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Dosis', sans-serif;*/
